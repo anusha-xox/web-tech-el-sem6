@@ -32,7 +32,7 @@ This report aims to comprehensively document the development and implementation 
 9.	Future Enhancements: Propose potential enhancements and features that could be integrated into the system in the future to further improve its functionality and utility.
     
 
-##Problem Statement
+## Problem Statement
 
 Presently, transaction of books in the institutional libraries have been done manually in most cases, thereby taking more time for transaction like borrowing of books or return of books and also searching of member and books. Series of problems occur as a result of this thereby
 resulting to inefficient library management. In most cases as a result of human error there maybe loss and damages of records due to not using a computerized system in the library. 
