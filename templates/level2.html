@@ -1,0 +1,27 @@
+{% include "header.html" %}
+<div id="main">
+    <div class="inner">
+        <h1>Level 2 Catalogue</h1>
+          <section class="tiles">
+              {%for book in books:%}
+            <article class="style1">
+                <span class="image">
+                    <img  width="200" height="300" src="{{ book.image }}" alt="" />
+                </span>
+                <a href="{{ url_for('book_details', index=book.id) }}">
+                    <h2>{{ book.title }}</h2>
+                    <div class="content">
+                        </div>
+                </a>
+
+            </article>
+            {% endfor %}
+          </section>
+        </div>
+
+
+    </div>
+</div>
+
+
+{% include "footer.html" %}

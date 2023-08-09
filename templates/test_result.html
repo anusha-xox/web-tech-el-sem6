@@ -1,0 +1,27 @@
+{% include "header.html" %}
+<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Questions
+								</h1>
+                                {% if result==true %}
+
+								 <p>Congratulations you have passed the test. You have now move to the next level. </p>
+                                {% else %}
+                                <p>Sorry, you haven't scored the required marks.Please read the books again and attempt the test again.</p>
+								{% endif %}
+								<h3>Scores</h3>
+									<div class="table-wrapper">
+										<table class="alt">
+											{%for i in scores:%}
+											<tr>
+												<td>{{i[0]}}</td>
+												<td>{{i[1]}}</td>
+											</tr>
+											{%endfor%}
+										</table>
+							</header>
+						</div>
+</div>
+
+{% include "footer.html" %}

@@ -1,0 +1,69 @@
+{% include "header.html" %}
+
+<div id="main">
+    <div class="inner">
+        <h1>Student Details : {{student.first_name}} {{student.last_name}}</h1>
+
+        <h3>Basic Info</h3>
+									<div class="table-wrapper">
+										<table class="alt">
+<!--											<thead>-->
+<!--												<tr>-->
+<!--													<th>Name</th>-->
+<!--													<th>Description</th>-->
+<!--												</tr>-->
+<!--											</thead>-->
+											<tbody>
+											<tr>
+													<td>Student Code</td>
+													<td>{{student.id}}</td>
+												</tr>
+												<tr>
+													<td>Grade</td>
+													<td>{{student.grade}}</td>
+												</tr>
+												<tr>
+													<td>Age</td>
+													<td>{{student.age}}</td>
+												</tr>
+												<tr>
+													<td>Level Assigned</td>
+													<td>{{student.level_assigned}}</td>
+												<tr>
+													<td>Total Points</td>
+													<td>{{student.total_points}}</td>
+												</tr>
+												<tr>
+													<td>Badge(s)</td>
+													<td>{{student.badge}}.</td>
+												</tr>
+												<tr>
+													<td>No of Write Ups Approved</td>
+													<td>{{student.no_of_writeup}}.</td>
+												</tr>
+												<tr>
+													<td>Current Book</td>
+													<td>{{student.current_book}}.</td>
+												</tr>
+												<tr>
+													<td>Past Books</td>
+													<td>{{student.past_books}}.</td>
+												</tr>
+												<tr>
+													<td>Volunteer's Email Id</td>
+													<td>{{student.volunteer_email}}.</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>     </td>
+												</tr>
+											</tfoot>
+										</table>
+										<a href="{{ url_for('edit_student', index=student.id) }}" class="button">Edit Details</a>
+									</div>
+
+    </div>
+</div>
+{% include "footer.html" %}

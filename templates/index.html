@@ -1,0 +1,54 @@
+
+{% include "header.html" %}
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Library Management
+								</h1>
+								<p> </p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img  width="200" height="300" src="static/images/view_students.jpg" alt="" />
+									</span>
+									<a href="{{ url_for('view_students') }}">
+										<h2>View Student Details</h2>
+										<div class="content">
+											</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img  width="200" height="300" src="static/images/student_enroll.gif" alt="" />
+									</span>
+									<a href="{{ url_for('add_student') }}">
+										<h2>Add Student</h2>
+										<div class="content">
+
+										</div>
+									</a>
+								</article>
+								<article class="style3">
+									<span class="image">
+										<img  width="200" height="300"  src="static/images/books.jpg" alt="" />
+									</span>
+									<a href="{{ url_for('books') }}">
+										<h2>Books</h2>
+										<div class="content">
+
+										</div>
+									</a>
+								</article>
+
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+
+
+{% include "footer.html" %}
+

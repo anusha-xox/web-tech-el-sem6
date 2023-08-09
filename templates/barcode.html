@@ -1,0 +1,21 @@
+{% include "header.html" %}
+<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Submissions
+								</h1>
+
+							</header>
+                            <p>Please scan your barcode here.</p>
+
+<div style="justify-content:centre; display:flex; margin-top:60px">
+									<img src="{{ url_for('video_feed') }}" width="160%">
+
+
+</div>
+                       <ul class="actions special">
+							<li></li><a class="btn" href="{{ url_for('display_barcode' )}}">Done</a></li>
+					   </ul>
+
+
+{% include "footer.html" %}

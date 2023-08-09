@@ -1,0 +1,29 @@
+{% include "header.html" %}
+
+<div id="main">
+						<div class="inner">
+							<header>
+								<h1>My Students</h1>
+								<p> </p>
+							</header>
+							<section class="tiles">
+							{% for student in all_students %}
+								<article class="style1">
+									<span class="image">
+										<img  width="200" height="300" src="{{student.img_url}}" alt="" />
+									</span>
+									<a href="{{ url_for('individual_students', index=student.id) }}">
+										<h2>{{student.first_name}} {{student.last_name}}</h2>
+										<div class="content">
+											</div>
+									</a>
+								</article>
+							{% endfor %}
+							</section>
+
+
+						</div>
+					</div>
+
+
+{% include "footer.html" %}
