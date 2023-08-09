@@ -1,6 +1,6 @@
 # web-tech-el-sem6
 
-## Table of Contents
+## Library Management System for NGOs
 
 1.	Introduction.
 2.	Objectives.
@@ -39,5 +39,47 @@ resulting to inefficient library management. In most cases as a result of human 
 
 Nevertheless, the difficulty in the searching of books which could be termed to be inadequacy in book Management is a problem in the manual library thereby causing inefficiency and time consuming in the library. Also the problem of space consuming erupts after the number of records become large the space for physical storage of file and records also increases if no
 computerized system is implemented as well as the issue of cost. Due to problem of lack of prompt information retrieval and time wastage in using the library. In addition due to the cumbersome, in this project computer approach will be used to solve these problems. 
+
+# Screenshots
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/20cd162b-81e6-4c88-b621-aaafcf658eca)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/5be4ffac-b01a-4446-b144-ce7bb5add4eb)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/94ceddb8-5cde-46c6-9335-bfae35f2ff83)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/d39fcc00-65b7-4139-9fba-7a6c85a60a2f)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/ec0b1673-e265-4534-967b-6c6372d74669)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/c1ad9c5c-e939-4fc0-a80a-bd02d061bd78)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/1cf5f7c5-8cc2-4460-be44-2d22d5bdeaaf)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/5cc910e9-df51-4618-9026-77260e98e7c5)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/886b3702-3daa-4175-bbaa-6c20606f48ef)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/a74bf9c9-a6ff-4077-8f11-4c09b33ab842)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/814b2378-c064-4001-8106-49af4cd74caf)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/69759bb3-8e9e-4755-9a06-fc0b71de75c1)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/773c7ef3-ee28-41c2-b5d8-f7f1d1eb9ea9)
+
+![image](https://github.com/anusha-xox/web-tech-el-sem6/assets/75865099/fe2eab51-645d-476f-9b68-cf67ac17e882)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
